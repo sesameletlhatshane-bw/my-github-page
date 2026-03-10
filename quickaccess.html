@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Campus Life</title>
+        <title>Study Tips</title>
         <link rel="stylesheet" href="style.css">
         <!-- Bootstrap CSS --> 
 
@@ -27,7 +28,7 @@
 
                 <ul class="navbar-nav nav-center nav-spread w-100"> 
 
-                     <li class="nav-item"> 
+                   <li class="nav-item"> 
 
                         <a class="nav-link" href="index.html">Home</a> 
 
@@ -56,6 +57,7 @@
                             <a class="nav-link" href="quickaccess.html">Quick Access</a>
                         </li>
 
+
                 </ul> 
 
             </div> 
@@ -65,27 +67,88 @@
     </nav> 
         </header>
 
-        <main class="container my-5">
-            <h1 class="about-heading">The fun side of university life</h1> 
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
 
+  <main class="container my-5">
+<h2 style="text-align: center;">Top Study Resources</h2>
 
-    <p class="lead">Uni isn't the glittery dream we always saw on grown-ish, it's what you make of it.</p>
+<table style="width:50%" class="uni-table">
+  <tr>
+    <th>Resource</th>
+    <th>Free/Paid</th>
+    <th>Difficulty</th>
+    <th>Level of usefulness</th>
+  </tr>
+  <tr>
+    <td>Coursera</td>
+    <td>Paid/Free courses available</td>
+    <td>Medium</td>
+    <td>In-depth lectures and certificates</td>
+  </tr>
+  <tr>
+    <td>Studocu</td>
+    <td>Free/Paid</td>
+    <td>Medium</td>
+    <td>Notes and past exams from other students</td>
+  </tr>
+   <tr>
+    <td>Khan Academy</td>
+    <td>Free</td>
+    <td>Easy</td>
+    <td>Quick lessons and exercises</td>
+  </tr>
+ <tr>
+    <td>Youtube Lectures</td>
+    <td>Free</td>
+    <td>Easy</td>
+    <td>Extra explanations and tutorials</td>
+  </tr>
+</table><br><br>
 
-    <section>
-        <h2>Social Life</h2>
-        <p> Join clubs, attend events, and make friends to enhance your social experience , which will also be of benefit in terms of networking.</p>
-    </section>
+<h2 style="text-align: center;">Feedback Form</h2>
+<div class="feedback-form-wrapper">
+<form class="feedback-form">
+  
+<form>
+ 
+  
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+ 
+<label for="resource">Select Resource:</label>
+<select id="resource" name="resource">
+<option value="coursera">Coursera</option>
+<option value="khan">Khan Academy</option>
+<option value="youtube">YouTube Lectures</option>
+<option value="studocu">Studocu</option>
+</select>
+ 
 
-    <section>
-        <h2>Flex & Recharge</h2>
-        <p>Discover coffee spots, chill zones and cute corners on campus.</p>
-    </section>
-
+<label>Rating:</label>
+<div style="display: flex; gap: 15px;">
+<input type="radio" name="rating" value="1"> 1
+<input type="radio" name="rating" value="2"> 2
+<input type="radio" name="rating" value="3"> 3
+<input type="radio" name="rating" value="4"> 4
+<input type="radio" name="rating" value="5"> 5
+  </div>
+ 
+<label for="comment">Comment:</label>
+<textarea id="comment" name="comment" rows="3"></textarea>
+ 
+<input type="submit" value="Submit Feedback" style="background-color: black; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
 </div>
+  
+</form>
 
-        </main>
 
-        <footer>
+</main>
+ <footer>
             <p>&copy;2026 Sesame/Uni Lounge</p>
         </footer>
         <!-- Bootstrap JS and dependencies --> 
@@ -93,5 +156,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
-    </body>
+
+</body>
 </html>

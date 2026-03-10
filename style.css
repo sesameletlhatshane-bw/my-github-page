@@ -1,14 +1,16 @@
 body {
 font-family: Arial, sans-serif;
-color: #ffffff !important;
-background-color: #81B29A;
+color: #2c3e50 !important;
+background-color: #B67E7D;
 margin: 0;
 padding: 0;
 line-height: 1.6;
 }
 
+
+
 .about-heading {
-    color: #CC5500;
+    color: #6B1E64;
 
 
 }
@@ -18,8 +20,8 @@ line-height: 1.6;
 }
 
 header{
-    background-color: #556B2F;
-    color: #CC5500;
+    background-color: #800020; 
+    color: #420001;
     padding: 20px;
     text-align: center;
 }
@@ -28,7 +30,7 @@ header h1{
     margin: 0;
 }
 nav a {
-    color:#CC5500 !important;
+    color: #FF69B4 !important;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -51,7 +53,7 @@ main img {
 }
 
 footer {
-    background-color: #556B2F;
+    background-color: #A44A64;
     color: #ffffff;
     text-align: center;
     padding: 10px;
@@ -65,7 +67,7 @@ p{
 }
 
 a{
-    color: #4B5320;
+    color: #ffffff
     text-decoration:none;
 }
 
@@ -74,12 +76,12 @@ a:hover {
 }
 
 img {
-    border: 5px solid #CC5500;
+    border: 5px solid #ADD8E6;
     border-radius: 10px;
 }
 
 main a[href^="mailto:"] {
-    color: #4B5320;
+    color: #FF6B6B;
     font-weight: bold;
 }
 
@@ -94,4 +96,58 @@ main a[href^="mailto:"] {
     justify-content: center;
     margin-top: 10px;
     gap: 30px;
+    
+}
+
+.inspiration-note {
+    background-color: #e6f4ff;
+    border-left: #4DA6FF;
+    padding: 15px;
+    width: 250px;
+    float: right;
+    margin: 10px;
+}
+
+.uni-table {
+    background-color: #fff;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 80%;
+    border: 3px double #b03a2e;
+}
+
+.uni-table th, .uni-table td {
+    border: 3px double #b03a2e;
+    padding: 10px;
+    text-align: left;
+    background-color: #f9f9f9;
+    color: #333;
+    
+
+}
+
+
+ .feedback-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    gap: 15px;           
+}
+ 
+input, select, textarea {
+    width: 100%;          
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
