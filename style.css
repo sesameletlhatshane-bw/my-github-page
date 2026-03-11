@@ -25,10 +25,11 @@ header{
 header h1{
     margin: 0;
 }
-nav a {
-    color: #FF69B4 !important;
-    text-decoration: none;
+nav a { 
+    color: #ffffff !important;
     margin: 0 10px;
+   font-size: 4rem;
+
 }
 
 nav a:hover {
@@ -176,13 +177,44 @@ input, select, textarea {
 
 .navbar-brand {
     font-family:'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 3rem !important;
     font-weight: bold;
     color: #e6f4ff;
 }
 
-.navbar.fixed-top {
-    z-index: 1030;
-    background-color: #000 !important;
-    opacity: 1 !important;
+ .navbar-nav .nav-link { 
+    font-size: 1.5rem !important;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:  underline;
+    text-shadow: #e0559a;
+ }
+    
+ .highlight-section{
+display:flex;
+align-items:center;
+gap:100px;
+flex-wrap:wrap;
+}
+ 
+.highlight-section img{
+width:300px;
+border-radius:10px;
+}
+ 
+.highlight-text{
+max-width:  300px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:18px;
+line-height:1.6;
+}
+
+.image-row {
+    display: flex;
+    gap: 250px;
+
+}
+
+.image-row {
+    width:350px;
+    border-radius: 10px;
 }
