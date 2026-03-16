@@ -274,8 +274,9 @@ transition:0.3s;
 }
 
 .three-images {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
+    height: auto;
 }
 .three-images img:hover {
     transform:scale(1.05);
