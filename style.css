@@ -224,6 +224,13 @@ transition:0.3s;
 
 }
 
+@media (max-width:600px) {
+    .image-row {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
 .three-images{
 display:grid;
 grid-template-columns:1fr 1fr 1fr;
@@ -279,3 +286,10 @@ transform:scale(1.05);
 transition:0.3s;
 }
 
+
+@media (max-width:600px) {
+    .three-images-2 {
+        grid-template-columns: 1fr;
+    }
+    
+}
