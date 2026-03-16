@@ -234,13 +234,20 @@ margin-top:20px;
 .three-images img{
 width:100%;
 height: 300px;
-object-fit:cover;
 border-radius:10px;
+object-fit: cover;
 }
  
 .three-images img:hover{
 transform:scale(1.05);
 transition:0.3s;
+}
+
+@media (max-width:600px) {
+    .three-images {
+        grid-template-columns: 1fr;
+    }
+    
 }
  
 .kickoff-image{
