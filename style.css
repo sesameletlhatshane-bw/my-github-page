@@ -84,7 +84,6 @@ main a[href^="mailto:"] {
 
 .navbar-brand {
     font-size: 28px !important; 
-    margin-left: -80px;
     letter-spacing: 1px;
 }
 
