@@ -214,8 +214,8 @@ line-height:1.6;
 }
 
 .image-row img {
-    width: 70%;
-    border-radius: 10px;
+    width: 60%;   
+   border-radius: 10px;
 }
 .image-row img:hover {
     transform:scale(1.05);

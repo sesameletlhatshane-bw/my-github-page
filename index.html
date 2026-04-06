@@ -16,7 +16,7 @@
 
 
 
-        <div class="container-fluid"> 
+        <div class="container-fluid">
 
             <a class="navbar-brand fw-bold fs-4"  href="index.html">Uni Lounge🎓</a> 
 
@@ -78,21 +78,25 @@
             <h1 class="about-heading">Your digital campus compass🧭</h1> 
 
             <p>Starting uni is exciting...and slightly chaotic.Think of this website as your unofficial campus survival guide.</p>
-             <p class="highlight-text">Whether you're a first year student or someone looking for smarter study strategies, this space is built to help you thrive academically and socially!</p>
+             <p>Whether you're a first year student or someone looking for smarter study strategies, this space is built to help you thrive academically and socially!</p>
 
-            <section class="home-intro">
-            <div class="text">
-                <div class="highlight-section">
-            <div class="image">
-                <div class="image-row">
-                    <img src="page1.2.jpg" alt="study">
-                    <img src="gradd.jpg" alt="University Campus Students">
-                    <img src="grad.jpg" alt="graduation">
-                    <img src="page 1.jpg" alt="lecture">
-                </div>
-                </div>
-            </div>
-            </div>
+          
+
+
+             <style>
+                .center-video { 
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                }
+             </style>
+            <video class="center-video" width="60%" controls style="border-radius: 12px;">
+                <source src="welcome!.mp4" type="video/mp4" alt="welcome.video">
+             </video>
+
+
+            
         </div>
             </div>
              </section>
@@ -102,10 +106,12 @@
 
             <div class="d-grid gap-3 col-10 col-md-6 mx-auto mt-4">
             <p>Featured sections:</p>
-             <a href="starting-uni.html" class="btn btn-btn-custom">Starting University-tips for surviving 1st semester🎒</a>
-             <a href="study-tips.html" class="btn btn-btn-custom">Study Tips-how to study smarter📖</a>
-             <a href="campus-life.html" class="btn btn-btn-custom">Campus Life-Making friends and enjoying uni🏫</a>
-             <a href="about.html" class="btn btn-btn-custom">About</a>
+            <a href="about.html" class="btn btn-btn-custom">BEHIND THE LOUNGE</a>
+             <a href="starting-uni.html" class="btn btn-btn-custom">UNI KICKOFF🎒</a>
+             <a href="study-tips.html" class="btn btn-btn-custom">STUDY TIPS📖</a>
+             <a href="campus-life.html" class="btn btn-btn-custom">LIFE ON CAMPUS🏫</a>
+             <a href="quickaccess.html" class="btn btn-btn-custom">QUICK ACCESS🖊️</a>
+             
             
         
         </div> 
@@ -113,9 +119,38 @@
         
 
     </div> 
-
    
+           </section>
+           <p>Click on any image to see the hidden message!</p>
+           <section class="home-intro">
+            <div class="text">
+                <div class="highlight-section">
+            <div class="image">
+                <div class="image-row">
+           <img src="page1.2.jpg" alt="study" width="200" style="cursor:pointer;" onclick="showMessage('BELIEVE THAT YOU CAN AND YOU ARE HALFWAY THERE!-Theodore Roosevelt')">
+
+       <img src="gradd.jpg" alt="University Campus Students" width="200" style="cursor:pointer;" onclick="showMessage('SUCCESS IS THE SUM OF SMALL EFFORTS REPEATED DAY IN DAY OUT-Robert Collier!')">
+
+ <img src="grad.jpg" alt="graduation" width="200" style="cursor:pointer;" onclick="showMessage('HARD WORK BEATS TALENT WHEN TALENT DOES NOT WORK HARD-Tim Notke.')">
+
+ <img src="page 1.jpg" alt="lecture" width="200" style="cursor:pointer;" onclick="showMessage('DREAM BIG AND DARE TO FAIL-Norman Vaughan.')">
+
+          <script>
+
+        function showMessage(msg) {
+
+          alert(msg);
+
+           }
+
+</script>
+</section>
         </main>
+       <footer>
+            <p>&copy;2026 Sesame/Uni Lounge</p>
+        </footer>
+      
+
         <!-- Bootstrap JS and dependencies --> 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
