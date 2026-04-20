@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Uni Lounge</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
         <!-- Bootstrap CSS --> 
-
+           
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
         <link rel="stylesheet" href="style.css">
     </head>
@@ -91,8 +92,8 @@
 
                 }
              </style>
-            <video class="center-video" width="60%" controls style="border-radius: 12px;">
-                <source src="welcome!.mp4" type="video/mp4" alt="welcome.video">
+            <video class="center-video" width="60%" onclick="pop('WELCOME!🎉')" controls style="border-radius: 12px;">
+                <source src="videounilou.mp4" type="video/mp4" alt="welcome.video">
              </video>
 
 
@@ -115,36 +116,15 @@
             
         
         </div> 
-
-        
-
+         <div class="image-row">
+        <img src="page1.2.jpg" alt="study" style="width: 350px; cursor: pointer; border: 4px solid #ff47c2; border-radius: 10px;" onclick="confetti(); alert('Knowledge is love and light and vision-Helen Keller')">
+        <img src="gradd.jpg" alt="University Campus Students" style="width: 350px; cursor: pointer; border: 4px solid #ff47c2; border-radius: 10px;" onclick="confetti(); alert('All our dreams can come true, if we have the courage to pursue them-Walt Disney')">
+         <img src="grad.jpg" alt="graduation" style="width: 350px; cursor: pointer; border: 4px solid #ff47c2; border-radius: 10px;" onclick="confetti(); alert('The best way not to feel hopeless is to get up and do something-Barack Obama')">
+          <img src="page 1.jpg" alt="lecture" style="width: 350px; cursor: pointer; border: 4px solid #ff47c2; border-radius: 10px;" onclick="confetti(); alert('Just a student with expensive dreams')">
     </div> 
    
            </section>
-           <p>Click on any image to see the hidden message!</p>
-           <section class="home-intro">
-            <div class="text">
-                <div class="highlight-section">
-            <div class="image">
-                <div class="image-row">
-           <img src="page1.2.jpg" alt="study" width="200" style="cursor:pointer;" onclick="showMessage('BELIEVE THAT YOU CAN AND YOU ARE HALFWAY THERE!-Theodore Roosevelt')">
-
-       <img src="gradd.jpg" alt="University Campus Students" width="200" style="cursor:pointer;" onclick="showMessage('SUCCESS IS THE SUM OF SMALL EFFORTS REPEATED DAY IN DAY OUT-Robert Collier!')">
-
- <img src="grad.jpg" alt="graduation" width="200" style="cursor:pointer;" onclick="showMessage('HARD WORK BEATS TALENT WHEN TALENT DOES NOT WORK HARD-Tim Notke.')">
-
- <img src="page 1.jpg" alt="lecture" width="200" style="cursor:pointer;" onclick="showMessage('DREAM BIG AND DARE TO FAIL-Norman Vaughan.')">
-
-          <script>
-
-        function showMessage(msg) {
-
-          alert(msg);
-
-           }
-
-</script>
-</section>
+           
         </main>
        <footer>
             <p>&copy;2026 Sesame/Uni Lounge</p>
