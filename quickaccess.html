@@ -118,28 +118,31 @@ table, th, td {
  
   
 <label for="name">Name:</label>
-<input type="text" id="name" name="name">
- 
+<input type="text" id="name" name="name" required placeholder="Enter your name">
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required placeholder="Enter your email">
+
 <label for="resource">Select Resource:</label>
-<select id="resource" name="resource">
-<option value="coursera">Coursera</option>
-<option value="khan">Khan Academy</option>
-<option value="youtube">YouTube Lectures</option>
-<option value="studocu">Studocu</option>
+<select id="resource" name="resource" required>
+<option value="coursera">Coursera</option required>
+<option value="khan">Khan Academy</option required>
+<option value="youtube">YouTube Lectures</option required>
+<option value="studocu">Studocu</option required>
 </select>
  
 
 <label>Rating:</label>
 <div style="display: flex; gap: 15px;">
-<input type="radio" name="rating" value="1"> 1
-<input type="radio" name="rating" value="2"> 2
-<input type="radio" name="rating" value="3"> 3
-<input type="radio" name="rating" value="4"> 4
-<input type="radio" name="rating" value="5"> 5
+<input type="radio" name="rating" value="1" required> 1
+<input type="radio" name="rating" value="2" required> 2
+<input type="radio" name="rating" value="3" required> 3
+<input type="radio" name="rating" value="4" required> 4
+<input type="radio" name="rating" value="5" required> 5
   </div>
  
 <label for="comment">Comment:</label>
-<textarea id="comment" name="comment" rows="3"></textarea>
+<textarea id="comment" name="comment" rows="3" placeholder="Leave a comment..."(optional)></textarea>
  
 
 <input type="submit" value="Submit Feedback" style="background-color: black; color: white;">
