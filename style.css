@@ -332,17 +332,17 @@ justify-content: center;
 }
 
 .three-images-2 .image-card {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
    width: 90%;
-     gap: 20px;
-    margin: 0 auto;
+     
 }
 
 .three images-2 .image-card {
-   width: 100%;
-    height: 350px;
-    object-fit: cover;
+    width: 80%;
+    border-radius: 10px;
+    height: auto;
 }
 
 .three-images-2 .image-card {
