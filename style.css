@@ -350,3 +350,21 @@ justify-content: center;
     object-fit: cover;
     border-radius: 10px;
 }
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 8px 5px;
+  background: linear-gradient(135deg, #1f4037, #99f2c8);
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+ 
+.btn:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transform: translateY(-3px);
+}
+ 
